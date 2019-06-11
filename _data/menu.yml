@@ -53,7 +53,7 @@ menu:
       url: "/community/mailing-lists"
     - menuTitle: Bug Database
       url: "/community/bug-database"
-  - menuTitle: News & Events
+  - menuTitle: News
     url: "/news/"
   - menuTitle: Contact
     url: "/contact/"
