@@ -1,1 +1,23 @@
-theme: jekyll-theme-minimal
+# Basics
+title: Bedework Calendar System
+description: Bedework is an open-source, enterprise calendar system used by organizations both large and small.
+logo: assets/img/BedeworkLogo.png
+
+# Syntax highlighting
+highlighter:         pygments
+
+# Permalinks
+permalink:           pretty
+# Use of `relative_permalinks` ensures post links from the index work properly.
+#relative_permalinks: true
+
+# Build Settings
+sass:
+  sass_dir: _sass
+  style: :compressed
+include: ['_pages']
+kramdown:
+  input: GFM
+
+# Exclude from build
+exclude: [bedework.github.io.iml, Gemfile, Gemfile.lock, README.md]

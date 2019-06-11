@@ -1,0 +1,48 @@
+/* BODY, FONTS, and HEADINGS */
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,400i,500,500i,700&display=swap');
+body {
+  font-family: 'Ubuntu','Arial','Helvetica',sans-serif;
+}
+
+/* Variables */
+$bw-blue: #7495DC;
+$bw-darkblue: #2b3852;
+
+/* HEADER AND LOGOS */
+header {
+  background-color: $bw-blue;
+  /*background: linear-gradient(0deg, rgba(89,111,158,1) 0%, rgba(131,170,254,1) 100%);*/
+  color: white;
+  padding: 1.5em 0;
+}
+#apereo-logo {
+  display: none;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 300;
+}
+
+/* NAVIGATION MENU */
+nav.navbar {
+  margin-bottom: 1em;
+  border-bottom: 1px solid #ddd;
+}
+.navbar-nav .dropdown-menu {
+  border-radius: 0;
+}
+nav .navbar-brand {
+  margin-left: 1rem;
+}
+
+/* GENERAL */
+img {
+  max-width: 100%;
+}
+
+/* FOOTER */
+footer {
+  margin-top: 2em;
+  padding: 1em 0;
+  background-color: $bw-darkblue;
+  color: #ddd;
+}

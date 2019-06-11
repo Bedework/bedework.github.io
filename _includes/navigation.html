@@ -1,0 +1,36 @@
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="/">Bedework Calendar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-container" aria-controls="nav-container" aria-expanded="false" aria-label="toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="nav-container" class="collapse navbar-collapse">
+      <ul class="navbar-nav mr-auto">
+        {% for item in site.data.menu.menu %}
+        <li class="nav-item{% if item.menuTitle == page.menuTitle %} active{% endif %}{% if item.url == "#DROPDOWN#" %} dropdown{% endif %}">
+          {% if item.url == "#DROPDOWN#" %}
+            <a class="nav-link dropdown-toggle" href="#" id="{{ item.id }}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          {% else %}
+            <a href="{{ item.url }}" class="nav-link">
+          {% endif %}
+
+          {{ item.menuTitle }}
+
+          </a>
+          {% if item.submenuItems %}
+          <ul class="dropdown-menu" aria-labelledby="{{ item.id }}">
+            {% for entry in item.submenuItems %}
+            <li class="nav-item{% if entry.menuTitle == page.menuTitle %} active{% endif %}">
+              <a href="{{ entry.url }}" class="dropdown-item">
+                {{ entry.menuTitle }}
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</nav>

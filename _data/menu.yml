@@ -1,0 +1,59 @@
+menu:
+  - menuTitle: About
+    url: "#DROPDOWN#"
+    id: nav-about
+    submenuItems:
+      - menuTitle: About Bedework
+        url: "/about/"
+      - menuTitle: Features
+        url: "/about/features"
+      - menuTitle: Calendar Standards
+        url: "/about/standards"
+      - menuTitle: Who’s Using Bedework
+        url: "/about/deployments"
+      - menuTitle: Timeline
+        url: "/about/timeline"
+      - menuTitle: History
+        url: "/about/history"
+      - menuTitle: (Publications)?
+        url: "/about/publications"
+      - menuTitle: Solutions Providers
+        url: "/about/providers"
+      - menuTitle: Who’s Bede?
+        url: "/about/bede"
+  - menuTitle: Download
+    url: "#DROPDOWN#"
+    id: nav-download
+    submenuItems:
+      - menuTitle: Download Bedework
+        url: "/download/"
+      - menuTitle: All Versions
+        url: "/download/"
+      - menuTitle: Code Repository
+        url: "/download/"
+      - menuTitle: Change Log
+        url: "/download/"
+      - menuTitle: License
+        url: "/download/"
+  - menuTitle: Documentation
+    url: "/documentation/"
+  - menuTitle: Community
+    url: "#DROPDOWN#"
+    id: nav-community
+    submenuItems:
+    - menuTitle: Bedework Community
+      url: "/community/"
+    - menuTitle: Steering Committee
+      url: "/community/steering-committee"
+    - menuTitle: Development
+      url: "/community/development"
+    - menuTitle: Contributors
+      url: "/community/contributors"
+    - menuTitle: Mailing Lists
+      url: "/community/mailing-lists"
+    - menuTitle: Bug Database
+      url: "/community/bug-database"
+  - menuTitle: News & Events
+    url: "/news/"
+  - menuTitle: Contact
+    url: "/contact/"

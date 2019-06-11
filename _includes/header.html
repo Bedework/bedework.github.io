@@ -1,0 +1,15 @@
+<div id="bedework-logo">
+  <a href="{{ "/" | absolute_url }}">
+    {% if site.logo %}
+    <img src="{{site.logo | relative_url}}" alt="Bedework Calendaring System" />
+    {% endif %}
+    {% comment %}
+    {{ site.title | default: site.github.repository_name }}
+    {% endcomment %}
+  </a>
+</div>
+<div id="apereo-logo">
+  <a href="https://www.apereo.org">
+    <img src="{{ "/assets/img/ApereoLogo-withCircle.png" }}"  alt="Apereo Foundation"/>
+  </a>
+</div>
