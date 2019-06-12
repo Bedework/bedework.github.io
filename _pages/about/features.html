@@ -1,0 +1,142 @@
+---
+title: Bedework Features
+menuTitle: Features
+menuRoot: About
+layout: default
+permalink: /about/features
+---
+
+<h3>Java</h3>
+
+<p>Written completely in Java, Bedework is system independent. Currently it will compile and run in Java 1.5 or later.</p>
+
+<h3>Standards based and interoperable</h3>
+
+<p>Interoperability with other calendar systems and clients by way of standards compliance is a fundamental design goal of the Bedework system. At least the following standards are supported:</p>
+
+<ul><li>iCalendar support (rfc2445)</li>
+  <li>iTIP (rfc2446)</li>
+  <li>CalDAV (rfc4791)</li>
+  <li>CalDAV scheduling (draft)</li>
+  <li>VVenue (draft)</li>
+</ul><h3>CalDAV server</h3>
+
+<p>Bedework provides a full CalDAV server. It can be used with any CalDAV capable client and has been shown to work with Mozilla Lightning, the iPhone, Apple's iCal, Evolution, and others.</p>
+
+<h3>CardDAV server</h3>
+
+<p>Bedework provides a full CardDAV server, and a CardDAV address book client is under development.</p>
+
+<h3>Web clients</h3>
+
+<p>The Bedework web clients provide access to public events in guest mode and to public and personal events in authenticated mode. The clients are skinnable allowing a high degree of customization</p>
+
+<ul>
+  <li>
+    <h3>Public calendar suites</h3>
+    <p>Public events are displayed using "calendar suites" allowing multiple organizations to maintain thier own public views of events with whatever degree of visibility is appropriate. A Bedework public calendaring installation may have one or many calendar suites. A calendar suite provides a customized view of events, custom theming, and control over how events are tagged by event administrators.</p>
+  </li>
+  <li>
+    <h3>Personal calendars</h3>
+    <p>Bedework provides a web client for personal and group calendaring including scheduling. Using CalDAV desktop clients, users can see a fully synchronized view of their personal and subscribed events between their desktop, mobile devices, and the web client.</p>
+  </li>
+  <li>
+    <h3>Administrative client for public events</h3>
+    <p>Public event entry and maintenance is carried out through the administrative web client. The system supports three roles: Super Users control global system settings including user and calendar maintenance and the setup of calendar suites. Calendar Suite Owners can modify the settings of their calendar suite, and Event Administrators can add and edit events for their administrative group.</p>
+  </li>
+  <li>
+    <h3>Public event submission</h3>
+    <p>Bedework provides a web client for submitting events to a public queue. This allows members of your community who are not event administrators to suggest public events.</p>
+  </li>
+  <li>
+    <h3>Public event data feeds and widget builder</h3>
+    Bedework includes a public events widget builder which generates embeddable code for other web sites.&nbsp; Raw data feeds in the form of ical, rss, json, and XML can also be generated.
+  </li>
+</ul>
+
+<h3>Highly customizable look and feel: XML &amp; XSLT</h3>
+
+<p>The web clients are XML and XSLT based allowing Bedework to be "skinned" for multiple clients and uses. For example, the quickstart comes with skins for producing production RSS, Javascript, and video feeds as well as HTML displays suitable for handheld devices.</p>
+
+<h3>Database independence: Hibernate</h3>
+
+<p>The core of the calendar uses Hibernate for all database transactions giving support of many database systems and enterprise level performance and reliability. A number of caching schemes are implemented for Hibernate including clustered systems giving further options for improving availability.</p>
+
+<h3>Sharing</h3>
+
+<p>Full CalDAV access control is available allowing the sharing of calendars and calendar entities based on authentication status and identity.</p>
+
+<h3>Scheduling</h3>
+
+<p>Support for scheduling of meetings including invitations and their responses is available. Caldav scheduling (still in draft) is also supported. Freebusy is supported and the busy time is displayed as attendee lists are built. In the near future it will be possible to carry out scheduling with other bedework systems though real-time protocols. Access control allows users to determine who may attempt to schedule meetings with them. Automatic responses to meeting requests is an option which can be used to enable simple resource scheduling by, for example, 'inviting' a resource to a meeting.</p>
+
+<h3>Import and export</h3>
+
+<p>Events can be imported and exported in iCalendar (RFC2445) format. This provides an option for populating the calendar from external sources. A dump/restore utility provides a means to backup and restore xml data files.</p>
+
+<h3>Calendar subscriptions</h3>
+
+<p>Users may subscribe to calendars to which they have access, including public and personal calendars. For example they may subscribe to a class schedule, the theater calendar, or a calendar hosted by a friend or coworker.</p>
+
+<p>In the near future users will be able to receive email notification of events in subscribed calendars.</p>
+
+<h3>Multiple calendars</h3>
+
+<p>The core system supports multiple calendars for users and for public events.</p>
+
+<h3>Internationalization</h3>
+
+<p>Internationalization is carried out by creating a new skin. The skin selected is based upon skin name and locale allowing a significant degree of multilanguage support in the client. Work is currently taking place to strengthen support for internationalization independent of Bedework skins.</p>
+
+<h3>RSS &amp; Javascript Feeds</h3>
+
+<p>RSS and Javascript feeds are implemented simply by applying a different skin to transform the data appropriately. Feeds can be filtered by category or a named CalDAV filter.</p>
+
+<h3>Portal support</h3>
+
+<p>Bedework has been shown to work as a JSR168 portlet in Jetspeed, uPortal and Liferay using the portal-struts bridge.</p>
+
+<h3>Timezone support</h3>
+
+<p>Full timezone support is implemented. There is a set of system defined timezones based upon externally available sets of timezone definitions. In addition users are able to store their own timezone definitions.</p>
+
+<h3>Recurring events</h3>
+
+<p>Extensive recurring event support is available via CalDAV and the web clients.</p>
+
+<h3>Event references</h3>
+
+<p>Users may add public event references to their personal calendars. Event references can be annotated by the user.</p>
+
+<h3>Pluggable group support</h3>
+
+<p>Bedework uses a pluggable class implementation to determine group membership for authenticated users allowing organizations to implement a class which uses an external directory. The default class uses internal tables to maintain group membership. Different implementations can be used for administrative and personal use allowing the separation of any given users roles.</p>
+
+<h3>Container authentication</h3>
+
+<p>There is no authentication code in Bedework. Rather, Bedework behaves as a standard servlet. All authentication is carried out through external mechanisms. Standard container authentication (via tomcat or jboss) and filter based Yale CAS authentication have been shown to work.</p>
+
+<h3>Support for other calendar systems and clients</h3>
+
+<p>It is possible to access an entire calendar with a single url. This can be used to subscribe to a bedework calendar from Google or Outlook. Bedework can also take advantage of the richness of CalDAV capable desktop clients.</p>
+
+<h3>Calendar Standards</h3>
+
+<p>Bedework is designed to conform to existing calendar standards. In particular:</p>
+
+<ul><li><a href="http://tools.ietf.org/html/rfc5545">iCalendar: RFC 5545</a><br>
+  Internet Calendaring and Scheduling Core Object Specification</li>
+  <li><a href="http://tools.ietf.org/html/rfc5546">iTIP: RFC 5546</a><br>
+    iCalendar Transport-Independent Interoperability Protocol</li>
+  <li><a href="http://tools.ietf.org/html/rfc4791">CalDAV: RFC 4791</a><br>
+    Calendaring Extensions to WebDAV</li>
+  <li>CalDAV scheduling (IETF draft)<br>
+    Scheduling Extensions to CalDAV</li>
+  <li><a href="http://carddav.calconnect.org/standards.html">CardDAV RFC 6352</a><br>
+    vCard Extensions to Web Distributed Authoring and Versioning</li>
+  <li><a href="http://tools.ietf.org/html/draft-norris-ical-venue-00">VVENUE: draft-norris-ical-venue-00</a><br>
+    Internet Calendaring and Scheduling Venue Component Specification</li>
+</ul><p>The Bedework implementation team participates in the standards process as a member of <a href="http://www.calconnect.org/">CalConnect</a>, the Calendaring and Scheduling Consortium, which is "focused on the interoperable exchange of calendaring and scheduling information between dissimilar programs, platforms, and technologies."</p>
+
+<p>Interoperability with other calendar systems and clients by way of standards compliance is an important design goal of the Bedework system.</p>
+

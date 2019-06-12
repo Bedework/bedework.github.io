@@ -17,12 +17,19 @@
     </div>
   </header>
 
-  {% include navigation.html %}
+  {% include menuTop.html %}
 
   <main>
     <div id="main-container" class="container">
+      {% if page.menuTitle != Home %}
+        {% include crumbs.html %}
+        {% include submenu.html menuRoot=page.menuRoot %}
+      {% endif %}
+
       <h1>{{ page.title }}</h1>
+
       {{ content }}
+
     </div>
   </main>
   <footer>

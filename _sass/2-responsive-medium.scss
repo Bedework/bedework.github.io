@@ -1,6 +1,9 @@
 /* Primary Break Point */
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
+  body {
+    padding-bottom: 6em;
+  }
 
   /* HEADER AND LOGOS */
   #header-container {
@@ -38,7 +41,33 @@
     padding-left: 0;
     margin-right: 1em;
   }
-
+  /* SUBMENU */
+  nav.submenu {
+    display: block;
+    float: right;
+    margin-left: 2rem;
+  }
+  nav.submenu ul {
+    list-style: none;
+    padding: 0;
+  }
+  nav.submenu li {
+    padding: 0;
+    margin: 0;
+  }
+  nav.submenu li a {
+    display: block;
+    padding: 0.5rem 1rem;
+  }
+  nav.submenu li.active {
+    color: black;
+    background-color: $bw-gray;
+    padding: 0.5rem 1rem;
+  }
+  /* BREADCRUMBS */
+  .breadcrumb {
+    margin-top: -2em;
+  }
   /* FOOTER */
   footer {
     position: fixed;

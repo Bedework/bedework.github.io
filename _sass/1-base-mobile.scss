@@ -7,6 +7,8 @@ body {
 /* Variables */
 $bw-blue: #7495DC;
 $bw-darkblue: #2b3852;
+$bw-gray: #f8f9fa;
+$bw-links: #005edf;
 
 /* HEADER AND LOGOS */
 header {
@@ -21,17 +23,41 @@ header {
 h1,h2,h3,h4,h5,h6 {
   font-weight: 300;
 }
+a {
+  color: $bw-links;
+}
 
 /* NAVIGATION MENU */
 nav.navbar {
   margin-bottom: 1em;
   border-bottom: 1px solid #ddd;
+  background-color: $bw-gray;
 }
 .navbar-nav .dropdown-menu {
   border-radius: 0;
 }
 nav .navbar-brand {
   margin-left: 1rem;
+}
+nav.submenu {
+  display: none;
+}
+/* BREADCRUMBS */
+.breadcrumb {
+  margin-top: -1em;
+  padding: 8px 0;
+  background-color: transparent;
+  color: #666;
+  font-size: 0.9em;
+  list-style: none;
+}
+.breadcrumb > li {
+  display: inline-block;
+  padding-right: 2px;
+}
+.breadcrumb > li + li::before {
+  content: "›";
+  padding: 0 5px;
 }
 
 /* GENERAL */

@@ -1,0 +1,23 @@
+{% for item in site.data.menu.menu %}
+  {% if item.menuTitle == include.menuRoot %}
+    {% if item.submenuItems %}
+      <nav class="submenu">
+        <ul>
+          {% for entry in item.submenuItems %}
+            {% if (entry.menuTitle == page.menuTitle) or (entry.menuAlias == page.menuTitle) %}
+              <li class="active">
+                {{ entry.menuTitle }}
+              </li>
+            {% else %}
+              <li>
+                <a href="{{ entry.url }}">
+                  {{ entry.menuTitle }}
+                </a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </nav>
+    {% endif %}
+  {% endif %}
+{% endfor %}

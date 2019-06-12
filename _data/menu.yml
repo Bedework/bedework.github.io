@@ -4,6 +4,7 @@ menu:
     id: nav-about
     submenuItems:
       - menuTitle: About Bedework
+        menuAlias: About
         url: "/about/"
       - menuTitle: Features
         url: "/about/features"
@@ -15,7 +16,7 @@ menu:
         url: "/about/timeline"
       - menuTitle: History
         url: "/about/history"
-      - menuTitle: (Publications)?
+      - menuTitle: Publications
         url: "/about/publications"
       - menuTitle: Solutions Providers
         url: "/about/providers"
@@ -26,6 +27,7 @@ menu:
     id: nav-download
     submenuItems:
       - menuTitle: Download Bedework
+        menuAlias: Download
         url: "/download/"
       - menuTitle: All Versions
         url: "/download/"
@@ -42,6 +44,7 @@ menu:
     id: nav-community
     submenuItems:
     - menuTitle: Bedework Community
+      menuAlias: Community
       url: "/community/"
     - menuTitle: Steering Committee
       url: "/community/steering-committee"

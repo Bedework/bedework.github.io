@@ -4,7 +4,7 @@ description: Bedework is an open-source, enterprise calendar system used by orga
 logo: assets/img/BedeworkLogo.png
 
 # Syntax highlighting
-highlighter:         pygments
+highlighter:         rouge
 
 # Permalinks
 permalink:           pretty
