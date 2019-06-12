@@ -30,13 +30,13 @@ menu:
         menuAlias: Download
         url: "/download/"
       - menuTitle: All Versions
-        url: "/download/"
+        url: "/download/versions"
       - menuTitle: Code Repository
-        url: "/download/"
+        url: "/download/repository"
       - menuTitle: Change Log
-        url: "/download/"
+        url: "/download/change-log"
       - menuTitle: License
-        url: "/download/"
+        url: "/download/license"
   - menuTitle: Documentation
     url: "/documentation/"
   - menuTitle: Community
