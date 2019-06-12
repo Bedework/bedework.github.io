@@ -52,8 +52,6 @@ menu:
       url: "/community/development"
     - menuTitle: Contributors
       url: "/community/contributors"
-    - menuTitle: Mailing Lists
-      url: "/community/mailing-lists"
     - menuTitle: Bug Database
       url: "/community/bug-database"
   - menuTitle: News
