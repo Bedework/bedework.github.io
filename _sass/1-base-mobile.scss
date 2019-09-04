@@ -68,7 +68,14 @@ img {
 .commonTable td {
   padding: 0 1em 1em 0;
 }
-
+.top-right-buttons {
+  float: right;
+  margin-top: -3em;
+}
+.btn-primary {
+  background-color: #506798;
+  border-color: #506798;
+}
 /* FOOTER */
 footer {
   margin-top: 2em;
