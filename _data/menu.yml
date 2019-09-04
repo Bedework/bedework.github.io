@@ -33,8 +33,8 @@ menu:
         url: "/download/versions"
       - menuTitle: Code Repository
         url: "/download/repository"
-      - menuTitle: Change Log
-        url: "/download/change-log"
+      - menuTitle: Release Notes
+        url: "/download/release-notes"
       - menuTitle: Bug Database
         url: "/download/bug-database"
       - menuTitle: License
