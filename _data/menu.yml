@@ -40,7 +40,14 @@ menu:
       - menuTitle: License
         url: "/download/license"
   - menuTitle: Documentation
-    url: "/documentation/"
+    url: "#DROPDOWN#"
+    id: nav-community
+    submenuItems:
+      - menuTitle: Getting Started
+        url: "/documentation/getting-started"
+      - menuTitle: Full Documentation
+        menuAlias: Documentation
+        url: "/documentation/"
   - menuTitle: Community
     url: "#DROPDOWN#"
     id: nav-community
