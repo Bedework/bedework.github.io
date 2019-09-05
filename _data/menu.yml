@@ -16,8 +16,8 @@ menu:
         url: "/about/timeline"
       - menuTitle: History
         url: "/about/history"
-      - menuTitle: Publications
-        url: "/about/publications"
+#      - menuTitle: Publications
+#        url: "/about/publications"
       - menuTitle: Solutions Providers
         url: "/about/providers"
       - menuTitle: Who’s Bede?
