@@ -35,8 +35,8 @@ menu:
         url: "/download/repository"
       - menuTitle: Release Notes
         url: "/download/release-notes"
-      - menuTitle: Bug Database
-        url: "/download/bug-database"
+      - menuTitle: Issue Tracking
+        url: "/download/issue-tracking"
       - menuTitle: License
         url: "/download/license"
   - menuTitle: Documentation
