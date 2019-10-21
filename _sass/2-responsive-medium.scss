@@ -68,6 +68,16 @@
   .breadcrumb {
     margin-top: -2em;
   }
+  /* GENERAL */
+  .right-image {
+    float: right;
+    margin: 0 0 1em 1em;
+    max-width: 30%;
+  }
+  /* SPECIAL */
+  #octocat {
+    margin-top: -4em;
+  }
   /* FOOTER */
   footer {
     position: fixed;
