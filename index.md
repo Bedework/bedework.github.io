@@ -16,7 +16,7 @@ portals and has been deployed across a wide range of environments.
 ## Recent News
 
 <ul>
-  {% for post in site.posts limit:3 %}
+  {% for post in site.posts limit:1 %}
   <li>
     <a href="{{ post.url }}">{{ post.title }}</a>
   </li>

@@ -60,7 +60,6 @@ nav.submenu {
   content: "›";
   padding: 0 5px;
 }
-
 /* GENERAL */
 img {
   max-width: 100%;
@@ -75,6 +74,22 @@ img {
 .btn-primary {
   background-color: #506798;
   border-color: #506798;
+}
+/* NEWS */
+#news {
+  padding: 0;
+}
+#news li {
+  list-style: none;
+  margin: 0 0 1.5em;
+}
+#news h3 {
+  display: inline;
+  margin-bottom: 0;
+}
+#news .news-summary {
+  color: #666;
+  font-size: 0.9em;
 }
 /* FOOTER */
 footer {

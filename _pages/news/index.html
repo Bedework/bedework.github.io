@@ -6,9 +6,14 @@ layout: default
 permalink: /news/
 ---
 
-{% for post in site.posts %}
-<time>{{ post.date | date: "%b %-d, %Y" }}</time>
-<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-{% endfor %}
+<ul id="news">
+  {% for post in site.posts %}
+  <li>
+    <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+    - <time>{{ post.date | date: "%b %-d, %Y" }}</time>
+    <div class="news-summary">{{ post.summary }}</div>
+  </li>
+  {% endfor %}
+</ul>
 
 <!--p>Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>.</p-->
