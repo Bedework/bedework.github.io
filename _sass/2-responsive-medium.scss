@@ -69,6 +69,12 @@
     margin-top: -2em;
   }
   /* GENERAL */
+  img {
+    min-width: 0;
+  }
+  .right-image figcaption {
+    text-align: center;
+  }
   .right-image {
     float: right;
     margin: 0 0 1em 1em;

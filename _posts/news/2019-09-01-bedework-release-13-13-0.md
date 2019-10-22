@@ -3,7 +3,7 @@ layout: default
 title:  "Bedework 13.13.0 Released"
 menuTitle: ""
 permalink: /news/bedework-13-13-0-released
-summary: "We are pleased to announce the latest version of Bedework."
+summary: "We are pleased to announce our latest version of Bedework."
 ---
 
 *<time>{{ page.date | date: "%B %-d, %Y" }}</time>*

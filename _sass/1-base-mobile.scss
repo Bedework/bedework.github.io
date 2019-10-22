@@ -63,6 +63,7 @@ nav.submenu {
 /* GENERAL */
 img {
   max-width: 100%;
+  min-width: 100%;
 }
 .commonTable td {
   padding: 0 1em 1em 0;
@@ -78,6 +79,8 @@ img {
 figcaption {
   font-size: 0.9em;
   font-style: italic;
+  margin-top: 0.5em;
+  color: #666;
 }
 /* NEWS */
 #news {
