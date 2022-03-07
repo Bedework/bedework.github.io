@@ -1,8 +1,8 @@
 ---
 layout: default
-title:  "Bedework 13.13.0 Released"
+title:  "Bedework 3.13.0 Released"
 menuTitle: ""
-permalink: /news/bedework-13-13-0-released
+permalink: /news/bedework-3-13-0-released
 summary: "We are pleased to announce our latest version of Bedework."
 ---
 

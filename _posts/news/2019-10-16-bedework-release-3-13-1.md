@@ -1,8 +1,8 @@
 ---
 layout: default
-title:  "Bedework 13.13.1 Released"
+title:  "Bedework 3.13.1 Released"
 menuTitle: ""
-permalink: /news/bedework-13-13-1-released
+permalink: /news/bedework-3-13-1-released
 ---
 
 *Posted <time>{{ page.date | date: "%B %-d, %Y" }}</time>*
