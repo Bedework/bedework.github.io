@@ -2,7 +2,7 @@
 layout: default
 title:  "Bedework 4.1.0 Released"
 menuTitle: ""
-permalink: /news/bedework-4-1.0-released
+permalink: /news/bedework-4-1-0-released
 ---
 
 *Posted <time>{{ page.date | date: "%B %-d, %Y" }}</time>*
