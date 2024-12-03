@@ -2,7 +2,7 @@
 layout: default
 title:  "Bedework 4.2.0 Released"
 menuTitle: ""
-permalink: /news/bedework-4-2.0-released
+permalink: /news/bedework-4-2-0-released
 ---
 
 *Posted <time>{{ page.date | date: "%B %-d, %Y" }}</time>*
@@ -18,5 +18,5 @@ permalink: /news/bedework-4-2.0-released
 As always there are a bunch of bug fixes, many in handling of recurring events (again).
 </p>
 <p>
-We are still running on jdk 17 and wildfly 26. The move past the jakarta boundary has to be th main focus - made easier now that some  of the main dependencies have also made the move. 
+We are still running on jdk 17 and wildfly 26. The move past the jakarta boundary has to be the main focus - made easier now that some  of the main dependencies have also made the move. 
 </p>
